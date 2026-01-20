@@ -1,1 +1,3 @@
-# ESP32-CAM-AnomalyDetection
+# ESP32-CAM AnomalyDetection
+
+![](Example.gif)
