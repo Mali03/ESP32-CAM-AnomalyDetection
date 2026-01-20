@@ -8,7 +8,7 @@
 #include "img_converters.h"
 #include "fb_gfx.h"
 
-#define CAMERA_MODEL_AI_THINKER  // Has PSRAM
+#define CAMERA_MODEL_AI_THINKER
 
 #define PWDN_GPIO_NUM 32
 #define RESET_GPIO_NUM -1
@@ -33,8 +33,8 @@
 #define EI_CAMERA_FRAME_BYTE_SIZE 3
 
 // Wifi credentials
-const char *ssid = "Gunalay 1";
-const char *password = "Ag001907";
+const char *ssid = "*******";
+const char *password = "*******";
 
 static bool debug_nn = false;  // Set this to true to see e.g. features generated from the raw signal
 static bool is_initialised = false;
